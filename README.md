@@ -21,6 +21,11 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
 
+> - [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
+> - [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
+> - [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
+> - [Face Attribute - Android(Premimum SDK)](https://github.com/kby-ai/FaceAttribute-Android)
+
 ## Download on the App Store
 
 <a href="https://apps.apple.com/us/app/kby-ai-face-recognition/id6448648922" target="_blank">
@@ -135,9 +140,3 @@ let similarity = FaceSDK.similarityCalculation(templates, templates2: personTemp
 
 It returns the similarity value between the two templates, which can be used to determine the degree of similarity between the two individuals.
 
-# References
-
-- [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
-- [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-- [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)
-- [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)
