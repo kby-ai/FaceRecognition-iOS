@@ -5,9 +5,7 @@
 
 # FaceRecognition-iOS
 
-Facial recognition technology is demonstrated here that can enroll and identify individuals while also verifying face liveness in real-time.
-
-The demonstration showcases the capability to enroll individuals from photo galleries on iPhone and identify them in real-time using a camera.
+The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
 
 > The demo is integrated with KBY-AI's Standard Face SDK.
 
