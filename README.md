@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://user-images.githubusercontent.com/125717930/225975240-24b9a8ad-8cc6-4d5f-9a91-1435951b0bd7.png" width="120" alt="Nest Logo" />
 </p>
 
@@ -8,6 +8,20 @@
 Facial recognition technology is demonstrated here that can enroll and identify individuals while also verifying face liveness in real-time.
 
 The demonstration showcases the capability to enroll individuals from photo galleries on iPhone and identify them in real-time using a camera.
+
+> The demo is integrated with KBY-AI's Standard Face SDK.
+
+  | Basic      | Standard | Premimum |
+  |------------------|------------------|------------------|
+  | Face Detection        | Face Detection    | Face Detection |
+  | Face Liveness Detection        | Face Liveness Detection    | Face Liveness Detection |
+  | Pose Estimation        | Pose Estimation    | Pose Estimation |
+  |         | Face Recognition    | Face Recognition |
+  |         |         | 68 points Face Landmark Detection |
+  |         |         | Face Quality Calculation |
+  |         |         | Face Occlusion Detection |
+  |         |         | Eye Closure Detection |
+  |         |         | Age, Gender Estimation |
 
 ## Screenshots
 
@@ -122,3 +136,4 @@ It returns the similarity value between the two templates, which can be used to 
 - [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
 - [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)
 - [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)
+- [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)
