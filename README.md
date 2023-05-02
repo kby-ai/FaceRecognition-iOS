@@ -21,6 +21,12 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
 
+## Download on the App Store
+
+<a href="https://apps.apple.com/us/app/kby-ai-face-recognition/id6448648922" target="_blank">
+  <img alt="" src="https://user-images.githubusercontent.com/125717930/235276083-d20fe057-214d-497c-a431-4569bbeed2fe.png" height=80/>
+</a>
+
 ## Screenshots
 
 <p float="left">
