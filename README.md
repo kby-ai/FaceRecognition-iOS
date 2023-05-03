@@ -7,6 +7,8 @@
 
 The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
 
+:star: :star: :star: Do not forget to star (Top right of this page) it if you like this repo :star: :star: :star:
+
 > The demo is integrated with KBY-AI's Standard Face SDK.
 
   | Basic      | Standard | Premimum |
