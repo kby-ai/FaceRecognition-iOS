@@ -27,7 +27,8 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 > - [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
 > - [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
 > - [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
-
+> - [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
+> 
 ## Download on the App Store
 
 <a href="https://apps.apple.com/us/app/kby-ai-face-recognition/id6448648922" target="_blank">
