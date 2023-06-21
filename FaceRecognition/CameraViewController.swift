@@ -107,17 +107,13 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         CVPixelBufferUnlockBaseAddress(pixelBuffer, CVPixelBufferLockFlags.readOnly)
 
         // Rotate and flip the image
-        let capturedImage = image.rotate(radians: .pi/2).flipHorizontally()
-        
-        let faceBoxes = FaceSDK.faceDetection(capturedImage)
-        for faceBox in (faceBoxes as NSArray as! [FaceBox]) {
-            if(cameraLens_val == 0) {
-                let tmp = faceBox.x1
-                faceBox.x1 = Int32(capturedImage.size.width) - faceBox.x2 - 1;
-                faceBox.x2 = Int32(capturedImage.size.width) - tmp - 1;
-            }
+        var capturedImage = image.rotate(radians: .pi/2)
+        if(cameraLens_val == 1) {
+            capturedImage = capturedImage.flipHorizontally()
         }
         
+        let faceBoxes = FaceSDK.faceDetection(capturedImage)
+       
         DispatchQueue.main.sync {
             self.faceView.setFrameSize(frameSize: capturedImage.size)
             self.faceView.setFaceBoxes(faceBoxes: faceBoxes)
