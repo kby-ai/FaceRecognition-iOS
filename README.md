@@ -59,7 +59,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 ## Screenshots
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/125717930/232953162-dea97039-8e76-4b54-abc0-41ad34dc8df5.png" width=300/>
+  <img src="https://github.com/kby-ai/FaceRecognition-iOS/assets/125717930/f89d7f72-170b-48ca-bee4-21c29fccfe13" width=300/>
   <img src="https://user-images.githubusercontent.com/125717930/232952569-6f167db2-e05e-4827-bb2f-d65cd148009d.png" width=300/>
 </p>
 
