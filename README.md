@@ -61,8 +61,8 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 ## Screenshots
 
 <p float="left">
-  <img src="https://github.com/kby-ai/FaceRecognition-iOS/assets/125717930/f89d7f72-170b-48ca-bee4-21c29fccfe13" width=300/>
-  <img src="https://user-images.githubusercontent.com/125717930/232952569-6f167db2-e05e-4827-bb2f-d65cd148009d.png" width=300/>
+  <img src="https://github.com/kby-ai/FaceRecognition-iOS/assets/125717930/ef13ae4c-0347-4001-aa05-4150cfbf94e2" width=300/>
+  <img src="https://github.com/kby-ai/FaceRecognition-iOS/assets/125717930/12f7d09e-65a1-441b-a01f-e1eda8c1fab2" width=300/>
 </p>
 
 <p float="left">
@@ -72,7 +72,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/125717930/232952852-12e195a0-d2df-473c-8cc2-e5292adca14d.png" width=300/>
-  <img src="https://user-images.githubusercontent.com/125717930/232952865-5f286cfe-0557-43f3-8123-1e6fd1f989e9.png" width=300/>
+  <img src="https://github.com/kby-ai/FaceRecognition-iOS/assets/125717930/ec295406-07a7-49e6-b8e8-b5b94e47946b" width=300/>
 </p>
 
 ## SDK License
