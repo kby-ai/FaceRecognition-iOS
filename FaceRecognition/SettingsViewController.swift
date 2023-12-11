@@ -6,7 +6,7 @@ class SettingsViewController: UIViewController{
     
     static let CAMERA_LENS_DEFAULT = 1
     static let LIVENESS_THRESHOLD_DEFAULT = Float(0.7)
-    static let IDENTIFY_THRESHOLD_DEFAULT = Float(0.8)
+    static let IDENTIFY_THRESHOLD_DEFAULT = Float(0.78)
     
     
     @IBOutlet weak var cameraLensSwitch: UISwitch!
