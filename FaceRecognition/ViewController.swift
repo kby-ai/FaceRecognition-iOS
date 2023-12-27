@@ -35,11 +35,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var ret = FaceSDK.setActivation("nWsdDhTp12Ay5yAm4cHGqx2rfEv0U+Wyq/tDPopH2yz6RqyKmRU+eovPeDcAp3T3IJJYm2LbPSEz" +
-                                        "+e+YlQ4hz+1n8BNlh2gHo+UTVll40OEWkZ0VyxkhszsKN+3UIdNXGaQ6QL0lQunTwfamWuDNx7Ss" +
-                                        "efK/3IojqJAF0Bv7spdll3sfhE1IO/m7OyDcrbl5hkT9pFhFA/iCGARcCuCLk4A6r3mLkK57be4r" +
-                                        "T52DKtyutnu0PDTzPeaOVZRJdF0eifYXNvhE41CLGiAWwfjqOQOHfKdunXMDqF17s+LFLWwkeNAD" +
-                                        "PKMT+F/kRCjnTcC8WPX3bgNzyUBGsFw9fcneKA==")
+        var ret = FaceSDK.setActivation("hazWdjsBTlcIs0hC9t+40JIKgQOTcag0lPNMdLxa8QkhAH1OllRuaNJ4pVolQ7rik+WVP6wlLbwT" +
+                                        "eq/PpAAQpoKJo0ra6OeS8abfqaz+1VZ7kCtri+IkpuXDYAC6ozz75EGgDSjxg0V9gp2awmSn73H1" +
+                                        "LMxWRC1bFn4VhSil2C9dz6KIXEwC3K9GRjsBnrKKJ5q32c/xA2458aBAyF1cD0VgXq7+nL2F2g1i" +
+                                        "VEAGoED0l2PUjfLOECiM+CFp/iEJQfDgcKMqG+Ns744qBFjudcjb/hFl6KQh28A0AoF7j4pSlzbC" +
+                                        "rtcltwQMJXPQ4pqTFCNFCr7ELueh3HUpmT9FOg==")
         
         if(ret == SDK_SUCCESS.rawValue) {
             ret = FaceSDK.initSDK()
