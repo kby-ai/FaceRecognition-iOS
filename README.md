@@ -11,9 +11,9 @@
 
 # FaceRecognition-iOS
 ## Overview
-This repository demonstrates both face liveness detection and face recognition technology developed from KBY-AI.
+This repository demonstrates both `face liveness detection` and `face recognition` technology developed by `KBY-AI`.
 
-> In this repository, we integrated KBY-AI's both face liveness detection and face recognition technology into iOS platform.</br>
+> In this repository, we integrated `KBY-AI`'s both `face liveness detection` and `face recognition` technology into `iOS` platform.</br>
 ### ◾FaceSDK(Mobile) Details
 
   | Basic      | 🔽 Standard | Premium |
@@ -41,7 +41,7 @@ This repository demonstrates both face liveness detection and face recognition t
   | 8        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
   | 9        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
 
- > To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
+ > To get `Face SDK(server)`, please visit products [here](https://github.com/kby-ai/Product).<br/>
 
 ## Download on the App Store
 
@@ -73,7 +73,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=M7t_dpT-h
 
 ## SDK License
 
-The face recognition project relies on kby-ai's SDK, which requires a license for each bundle ID.
+This repo integrated `KBY-AI`'s `face recognition SDK`, which requires a license for each `bundle ID` from `iOS` project.
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-iOS/blob/40b54da44a0c72c6bef275a060fc6b1ff8b3360c/FaceRecognition/ViewController.swift#L37-L44
 
@@ -88,9 +88,9 @@ The face recognition project relies on kby-ai's SDK, which requires a license fo
 ## About SDK
 
 ### Set up
-1. Copy the SDK (facesdk.framework folder) to the root folder of your project.
+1. Copy the SDK (`facesdk.framework` folder) to the `root` folder in your project.
 
-2. Add SDK framework to the project in xcode
+2. Add `SDK framework` to the project in `Xcode`.
 
 > Project Navigator -> General -> Frameworks, Libraries, and Embedded Content
 
@@ -112,32 +112,32 @@ To begin, you need to activate the SDK using the license that you have received.
 FaceSDK.setActivation("...") 
 ```
 
-If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+If activation is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 - Step Two
 
-After activation, call the SDK's initialization function.
+After activation, call the `SDK`'s initialization function.
 ```swift
 FaceSDK.initSDK()
 ```
-If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+If initialization is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 ### Face Detection and Liveness Detection
 
-The FaceSDK offers a single function for detecting face and liveness detection, which can be used as follows:
+The `FaceSDK` offers a single function for `face detection` and `face liveness detection`, which can be used as follows:
 ```swift
 let faceBoxes = FaceSDK.faceDetection(image)
 ```
 
 https://github.com/kby-ai/FaceRecognition-iOS/blob/40b54da44a0c72c6bef275a060fc6b1ff8b3360c/FaceRecognition/CameraViewController.swift#L101-L113
 
-This function takes a single parameter, which is a UIImage object. 
-The return value of the function is a list of FaceBox objects. 
-Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
+This function takes a single parameter, which is a `UIImage` object. 
+The return value of the function is a list of `FaceBox` objects. 
+Each `FaceBox` object contains the detected face rectangle, liveness score, and facial angles such as `yaw`, `roll`, and `pitch`.
 
 ### Create Templates
 
-The FaceSDK provides a function that can generate a template from a UIImage. This template can then be used to verify the identity of the individual captured in the image.
+The `FaceSDK` provides a function that can generate a `template` from a `UIImage`. This `template` can then be used to verify the identity of the individual image captured.
 
 ```swift
 let templates = FaceSDK.templateExtraction(capturedImage, faceBox: faceBox)
@@ -145,17 +145,17 @@ let templates = FaceSDK.templateExtraction(capturedImage, faceBox: faceBox)
 
 https://github.com/kby-ai/FaceRecognition-iOS/blob/40b54da44a0c72c6bef275a060fc6b1ff8b3360c/FaceRecognition/CameraViewController.swift#L128-L132
 
-The SDK's template extraction function takes two parameters: a UIImage object and an object of FaceBox. 
+The `SDK`'s `template` extraction function takes two parameters: a `UIImage` object and an object of `FaceBox`. 
 
-The function returns a Data, which contains the template that can be used for person verification.
+The function returns a `Data`, which contains the `template` that can be used for person verification.
 
 ### Calculation similiarity
 
-The "similarityCalculation" function takes a byte array of two templates as a parameter. 
+The `similarityCalculation` function takes a byte array of two `template`s as a parameter. 
 
 ```swift
 let similarity = FaceSDK.similarityCalculation(templates, templates2: personTemplates)
 ```
 
-It returns the similarity value between the two templates, which can be used to determine the degree of similarity between the two individuals.
+It returns the similarity value between the two `template`s, which can be used to determine the degree of similarity between the two individuals.
 
