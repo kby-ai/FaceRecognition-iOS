@@ -138,7 +138,7 @@ The `FaceSDK` offers a single function for `face detection` and `face liveness d
 let faceBoxes = FaceSDK.faceDetection(image)
 ```
 
-https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L101-L113
+https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L111-L117
 
 This function takes a single parameter, which is a `UIImage` object. 
 The return value of the function is a list of `FaceBox` objects. 
@@ -152,7 +152,7 @@ The `FaceSDK` provides a function that can generate a `template` from a `UIImage
 let templates = FaceSDK.templateExtraction(capturedImage, faceBox: faceBox)
 ```
 
-https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L128-L132
+https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L125-L129
 
 The `SDK`'s `template` extraction function takes two parameters: a `UIImage` object and an object of `FaceBox`. 
 
