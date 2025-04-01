@@ -84,7 +84,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=HpDggnWsG
 
 This repo integrated `KBY-AI`'s `face recognition SDK`, which requires a license for each `bundle ID` from `iOS` project.
 
-- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-iOS/blob/40b54da44a0c72c6bef275a060fc6b1ff8b3360c/FaceRecognition/ViewController.swift#L37-L44
+- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L37-L44
 
 - To request a license, please ping us on the following contact address:
 #### Please contact us:
