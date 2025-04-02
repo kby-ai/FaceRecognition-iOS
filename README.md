@@ -40,11 +40,11 @@ This repository demonstrates both `face liveness detection` and `face recognitio
   |------------------|------------------|------------------|
   | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
   | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
-  | 3        | [Face Recognition + Face Liveness Detection - Android](https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-Android)    | Standard SDK |
-  | ➡️        | <b>[Face Recognition + Face Liveness Detection - iOS](https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS)</b>    | <b>Standard SDK</b> |
-  | 5        | [Face Recognition + Face Liveness Detection - Flutter](https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-Flutter)        | Standard SDK |
-  | 6        | [Face Recognition + Face Liveness Detection - Ionic-Cordova](https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-Ionic-Cordova)        | Standard SDK |
-  | 7        | [Face Recognition + Face Liveness Detection - React-Native](https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-React-Native)        | Standard SDK |
+  | 3        | [Face Recognition + Face Liveness Detection - Android](https://github.com/kby-ai/FaceRecognition-Android)    | Standard SDK |
+  | ➡️        | <b>[Face Recognition + Face Liveness Detection - iOS](https://github.com/kby-ai/FaceRecognition-iOS)</b>    | <b>Standard SDK</b> |
+  | 5        | [Face Recognition + Face Liveness Detection - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
+  | 6        | [Face Recognition + Face Liveness Detection - Ionic-Cordova](https://github.com/kby-ai/FaceRecognition-Ionic-Cordova)        | Standard SDK |
+  | 7        | [Face Recognition + Face Liveness Detection - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
   | 8        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
   | 9        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
   | 10        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
@@ -84,7 +84,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=HpDggnWsG
 
 This repo integrated `KBY-AI`'s `face recognition SDK`, which requires a license for each `bundle ID` from `iOS` project.
 
-- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/fb33ea9b26798a513578fbad2974a6d6e9e6a0ab/FaceRecognition/ViewController.swift#L36-L45
+- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-iOS/blob/53cec3872bf52f772e7025be65db54fe4880484d/FaceRecognition/ViewController.swift#L36-L45
 
 - To request a license, please ping us on the following contact address:
 #### Please contact us:
@@ -138,7 +138,7 @@ The `FaceSDK` offers a single function for `face detection` and `face liveness d
 let faceBoxes = FaceSDK.faceDetection(image)
 ```
 
-https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L111-L117
+https://github.com/kby-ai/FaceRecognition-iOS/blob/53cec3872bf52f772e7025be65db54fe4880484d/FaceRecognition/CameraViewController.swift#L111-L117
 
 This function takes a single parameter, which is a `UIImage` object. 
 The return value of the function is a list of `FaceBox` objects. 
@@ -152,7 +152,7 @@ The `FaceSDK` provides a function that can generate a `template` from a `UIImage
 let templates = FaceSDK.templateExtraction(capturedImage, faceBox: faceBox)
 ```
 
-https://github.com/kby-ai/FaceRecognition-FaceLivenessDetection-iOS/blob/ce7d090209a4c8fa9082d19b0a678a5d90c924d7/FaceRecognition/CameraViewController.swift#L125-L129
+https://github.com/kby-ai/FaceRecognition-iOS/blob/53cec3872bf52f772e7025be65db54fe4880484d/FaceRecognition/CameraViewController.swift#L125-L129
 
 The `SDK`'s `template` extraction function takes two parameters: a `UIImage` object and an object of `FaceBox`. 
 
