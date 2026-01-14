@@ -34,11 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var ret = FaceSDK.setActivation("LvqLS/kUqek3yNzQYaskd7H2oQZeZ/9msTJ16au/DAz0ZcDtnJUqlY6Du5YffkGKZ2oWlCrE8JBJ" + 
-                                        "fbrVcPvchPnZv6ZDOSZ9R1JCg+KlmyCQ2s6Xre6nhcjoAjvKbVhY3wFpwWOeKuvsCzv6hmKf5YBU" + 
-                                        "Ma6IyTwcqsoCKbcVq5mJDWbWpQXwKOiFXwhmyXHBruWzI1Jd6i6cNzYRixgqLWi1sS3Kak5EiHhc" + 
-                                        "91TKPdLmZkLQQwWxr2OFSS8s3MRhrooAxxRU7XVglU+cg7tpqjvMcUSfbcLE8OYCV8DDIZfbBpEp" + 
-                                        "5y1YN/ggOpX04tojhkSIhX9l5MRTiZfMdovaZg==")
+        var ret = FaceSDK.setActivation("qVgkHPtJi0uJkvyBQJataEHfByivdhU7Dz4aJl8ARy1EP+PSJ5lbIE3BXZaaEJkZ+OlmUpGcxqe7rMuc/0ZxF0ZXF5ynZgbG3Iwy3gU2RJ5tbFCTeqGrkMApEYritcl2ZH0AqOOMWJSYvaXgkVVI/a0RzT48SP/FIuIEhD21m9/YGZ+m9Si64tXOGypbn+4G+yKrGST56JEQBRQNW8Pa/cgBv0Qgy05HR5Y5V/AuImdpdUiqkIiDsLzWngdVtS1Wn6349V1Oqn4MbjjGq187zqEQaFvcEnyAfHL+UcoJGZcFuXulVMLfsDEVGc+HZYw8hAgJG4n7Ijx83JfsMiPyew==")
         
         if(ret == SDK_SUCCESS.rawValue) {
             ret = FaceSDK.initSDK()
@@ -108,8 +104,22 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         UIView.animate(withDuration: 0.5) {
             self.identifyBtnView.backgroundColor = UIColor(named: "clr_main_button_bg1") // Change to desired color
         }
+        let alert = UIAlertController(title:"Select Source", message: "Choose Camera or Gallery video", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Camera", style: .default, handler: { _ in
+            // Navigate to CameraViewController
+            self.performSegue(withIdentifier: "camera", sender: self)
+        }))
         
-        performSegue(withIdentifier: "camera", sender: self)
+        
+        alert.addAction(UIAlertAction(title: "Gallery Video", style: .default, handler: { _ in
+            // Navigate to CameraViewController
+            self.performSegue(withIdentifier: "video", sender: self)
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+
     }
  
     

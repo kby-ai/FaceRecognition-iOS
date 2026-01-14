@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816F9C922F16B23B00523034 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F9C912F16B23B00523034 /* VideoViewController.swift */; };
 		CE08D25A29ED8D4F0071F025 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08D25929ED8D4F0071F025 /* ToastView.swift */; };
 		CE29C50529ECD0A5008EDB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50429ECD0A5008EDB5A /* AppDelegate.swift */; };
 		CE29C50729ECD0A5008EDB5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50629ECD0A5008EDB5A /* SceneDelegate.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		816F9C912F16B23B00523034 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		CE08D25929ED8D4F0071F025 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		CE29C50129ECD0A5008EDB5A /* FaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE29C50429ECD0A5008EDB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				CE29C54929ED7527008EDB5A /* PersonViewCell.swift */,
 				CE29C54629ED6A0C008EDB5A /* Model.xcdatamodeld */,
 				CE29C53C29ECE157008EDB5A /* AboutViewController.swift */,
+				816F9C912F16B23B00523034 /* VideoViewController.swift */,
 				CE29C53E29ECE159008EDB5A /* CameraViewController.swift */,
 				CE29C54029ECE15B008EDB5A /* FaceView.swift */,
 				CE29C53D29ECE158008EDB5A /* SettingsViewController.swift */,
@@ -318,6 +321,7 @@
 				CE29C50529ECD0A5008EDB5A /* AppDelegate.swift in Sources */,
 				CE29C54429ECE15C008EDB5A /* UIImageExtension.swift in Sources */,
 				CE08D25A29ED8D4F0071F025 /* ToastView.swift in Sources */,
+				816F9C922F16B23B00523034 /* VideoViewController.swift in Sources */,
 				CE29C54129ECE15C008EDB5A /* AboutViewController.swift in Sources */,
 				CE29C54329ECE15C008EDB5A /* CameraViewController.swift in Sources */,
 				CE29C50729ECD0A5008EDB5A /* SceneDelegate.swift in Sources */,
@@ -502,7 +506,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7;
-				DEVELOPMENT_TEAM = 6G7RACBX72;
+				DEVELOPMENT_TEAM = UG53T4L8TN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -521,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facerecog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai2.facerecog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -541,7 +545,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7;
-				DEVELOPMENT_TEAM = 6G7RACBX72;
+				DEVELOPMENT_TEAM = UG53T4L8TN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -560,7 +564,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facerecog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai2.facerecog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
